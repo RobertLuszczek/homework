@@ -61,3 +61,6 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/RobertLuszczek/homework.git
 git push -u origin main
+
+próbuję to przesłać na github
+
