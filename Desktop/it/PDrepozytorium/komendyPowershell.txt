@@ -1,0 +1,63 @@
+QA TESTER – ŚCIĄGA: PowerShell + Git + GitHub (z opisami)
+
+POWERSHELL – NAWIGACJA
+
+pwd – wyświetla aktualną ścieżkę katalogu, w którym się znajdujesz.
+ls (dir) – pokazuje listę plików i folderów w bieżącym katalogu.
+cd folder – przechodzi do wskazanego folderu.
+cd .. – przechodzi jeden poziom wyżej w strukturze katalogów.
+cd \ – przechodzi do katalogu głównego dysku.
+
+POWERSHELL – PLIKI I FOLDERY
+
+ni plik.txt – tworzy nowy plik o podanej nazwie (New-Item).
+mkdir folder – tworzy nowy folder.
+rm plik.txt – usuwa wskazany plik.
+rm -r folder – usuwa folder wraz z jego zawartością.
+cp plik.txt kopia.txt – kopiuje plik.
+mv plik.txt folder/ – przenosi plik do wskazanego folderu.
+
+GIT – KONFIGURACJA
+
+git config --global user.name "Imię" – ustawia nazwę użytkownika do commitów.
+git config --global user.email "email" – ustawia email do commitów.
+git config --list – pokazuje aktualną konfigurację Git.
+
+GIT – PODSTAWY
+
+git clone <url> – pobiera (kopiuje) repozytorium z GitHub na komputer.
+git status – pokazuje status zmian (które pliki są zmodyfikowane, dodane).
+git add . – dodaje wszystkie zmiany do obszaru staging (przygotowanie do commita).
+git add plik – dodaje konkretny plik do commita.
+git commit -m "opis" – zapisuje zmiany lokalnie z opisem.
+git push – wysyła lokalne commity do repozytorium zdalnego (GitHub).
+git pull – pobiera najnowsze zmiany z repozytorium zdalnego.
+
+BRANCHE
+
+git branch – pokazuje listę lokalnych branchy.
+git checkout -b nazwa – tworzy nowy branch i przełącza na niego.
+git checkout main – przełącza na branch main.
+git push -u origin nazwa – wysyła nowy branch do repozytorium zdalnego.
+
+PRZYDATNE KOMENDY
+
+git log --oneline – pokazuje historię commitów w skróconej formie.
+git diff – pokazuje różnice między aktualnymi zmianami a ostatnim commitem.
+git restore plik – cofa niezapisane zmiany w pliku.
+git reset --soft HEAD~1 – cofa ostatni commit, ale zostawia zmiany w plikach.
+
+AUTOMATYZACJA TESTÓW
+
+npm install – instaluje zależności projektu (Node.js).
+npm test – uruchamia testy zdefiniowane w projekcie.
+pip install -r requirements.txt – instaluje zależności projektu (Python).
+pytest – uruchamia testy w Pythonie.
+
+echo "# homework" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/RobertLuszczek/homework.git
+git push -u origin main
