@@ -1,0 +1,65 @@
+Lista kontrolna – Testy funkcjonalne strony g³ównej sklepu internetowego
+
+Nawigacja i menu
+Menu g³ówne wyœwietla siê poprawnie na desktopie i urz¹dzeniach mobilnych
+Zaliczone
+
+Wszystkie kategorie w menu s¹ klikalne i prowadz¹ do w³aœciwych stron
+Zaliczone
+Menu rozwijane otwiera siê i zamyka poprawnie
+Zaliczone
+Logo sklepu przekierowuje u¿ytkownika na stronê g³ówn¹
+Zaliczone
+Wyszukiwarka
+Pole wyszukiwania jest widoczne i aktywne
+Zaliczone
+Wyszukiwanie zwraca poprawne wyniki dla istniej¹cych produktów
+Zaliczone
+Wyszukiwanie obs³uguje b³êdne lub niepe³ne zapytania (np. literówki)
+Zaliczone
+Po naciœniêciu Enter u¿ytkownik jest przenoszony do strony wyników
+Zaliczone
+Banery i sekcje promocyjne
+G³ówny baner ³aduje siê poprawnie i nie powoduje b³êdów wizualnych
+Zaliczone
+Przyciski np. „Kup teraz”, „Zobacz kolekcjê” s¹ klikalne
+Zaliczone
+Banery rotacyjne zmieniaj¹ siê zgodnie z za³o¿eniami
+Zaliczone
+Linki w banerach prowadz¹ do w³aœciwych podstron
+Zaliczone
+Lista produktów na stronie g³ównej
+Produkty wyœwietlaj¹ poprawne nazwy, ceny i zdjêcia
+Zaliczone
+Ceny promocyjne s¹ oznaczone i obliczane prawid³owo
+Zaliczone
+Klikniêcie w produkt otwiera jego kartê
+Zaliczone
+Produkty niedostêpne s¹ odpowiednio oznaczone (jeœli wystêpuj¹)
+Zaliczone
+Koszyk
+Przycisk „Dodaj do koszyka” dzia³a poprawnie
+Zaliczone
+Produkt zostaje dodany do koszyka z odpowiedni¹ iloœci¹
+Zaliczone
+Ikona koszyka aktualizuje liczbê produktów
+Nieudane – koszyk wskazuje iloœæ asortymentu, nie iloœæ produktów
+U¿ytkownik mo¿e przejœæ do koszyka bezpoœrednio ze strony g³ównej
+Zaliczone
+Stopka
+Linki w stopce (kontakt, regulamin, polityka prywatnoœci) dzia³aj¹ poprawnie
+Zaliczone
+Dane kontaktowe s¹ widoczne i poprawne
+Zaliczone
+Ikony mediów spo³ecznoœciowych prowadz¹ do w³aœciwych profili
+Zaliczone
+Elementy techniczne i ogólne
+Strona ³aduje siê poprawnie bez b³êdów JavaScript
+Zaliczone
+Nie wystêpuj¹ martwe linki (404)
+Zaliczone
+Strona dzia³a poprawnie w popularnych przegl¹darkach
+Zaliczone
+Elementy interaktywne reaguj¹ na akcje u¿ytkownika
+Zaliczone
+
